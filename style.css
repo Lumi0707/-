@@ -1,0 +1,63 @@
+body {
+    background:#f0f0f0; /* 背景色如白雾 */
+    font-family:'微软雅黑'; /* 字体选择 */
+}
+
+h1 {
+    color:#ff0000; /* 标题如鲜血般红 */
+    text-shadow: 2px 2px 3px #999; /* 文字带剑气效果 */
+}
+
+img {
+    border: 3px solid #000;
+    border-radius: 10px; /* 圆角效果 */
+}
+
+.glow-effect {
+    border: 3px solid #gold;
+    box-shadow: 0 0 15px #ffd700; /* 金色光晕 */
+    transition: transform 0.3s;
+}
+
+.glow-effect:hover {
+    transform: scale(1.1); /* 悬停放大 */
+}
+
+ul {
+    list-style: none; /* 去掉默认黑点 */
+    padding: 0;
+}
+li {
+    padding: 8px;
+    background: linear-gradient(90deg, #fff, #eee); /* 渐变背景 */
+}
+
+a:hover {
+    color: #f00;
+    transform: rotate(5deg); /* 悬停时微微旋转 */
+}
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.progress-bar {
+    height: 20px;
+    background: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.html {
+    width: 50%;
+    background: linear-gradient(90deg, #ff6b6b, #ff8787);
+}
